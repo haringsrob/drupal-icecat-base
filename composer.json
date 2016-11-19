@@ -1,6 +1,6 @@
 {
-    "name": "drupalcommerce/project-base",
-    "description": "Commerce 2.x project template",
+    "name": "haringsrob/icecat-base",
+    "description": "Icecat project template",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -13,10 +13,6 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        "commerce_base": {
-            "type": "vcs",
-            "url": "https://github.com/drupalcommerce/commerce_base"
         }
     },
     "config": {
@@ -29,8 +25,7 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.2.0",
         "drupal/console": "~1.0",
-        "drupal/commerce": "2.x-dev",
-        "drupalcommerce/commerce_base": "dev-8.x-1.x"
+        "drupal/icecat": "2.x-dev"
     },
     "require-dev": {
         "behat/mink": "~1.7",
