@@ -15,7 +15,7 @@ for your setup.
 After that you can create the project:
 
 ```
-composer create-project haringsrob/icecat-base some-dir --stability dev --no-interaction
+composer create-project haringsrob/drupal-icecat-base some-dir --stability dev --no-interaction
 ```
 
 Done! Use `composer require ...` to download additional modules and themes:
